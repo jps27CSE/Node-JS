@@ -1,8 +1,14 @@
-var a = 10
+// import {add} from './math'
 
-function test()
-{
-    console.log('I am Test')
-}
+// var a = 10
 
-console.log(moodule) 
+// function test()
+// {
+//     console.log('I am Test')
+// }
+
+// console.log(moodule) 
+
+const math = require('./math')
+
+console.log(math)
